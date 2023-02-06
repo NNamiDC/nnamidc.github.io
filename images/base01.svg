@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="baseline01.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title71">baseline01</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.77771465"
+     inkscape:cx="12.858186"
+     inkscape:cy="560.61693"
+     inkscape:window-width="3840"
+     inkscape:window-height="2120"
+     inkscape:window-x="6708"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#ffaaaa;stroke:#ffffff;stroke-width:0.1"
+       id="path846"
+       cx="105"
+       cy="97.46907"
+       rx="34.190723"
+       ry="36.912369" />
+    <rect
+       style="fill:#0000ff;stroke:#ffffff;stroke-width:0.1"
+       id="rect892"
+       width="94.577316"
+       height="87.432983"
+       x="61.237114"
+       y="126.21649" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:50.8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="107.1208"
+       y="115.72532"
+       id="text7562"><tspan
+         sodipodi:role="line"
+         id="tspan7560"
+         style="stroke-width:0.264583"
+         x="107.1208"
+         y="115.72532">1</tspan></text>
+  </g>
+  <metadata
+     id="metadata67">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>baseline01</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>nnamidc 4 Intigriti Bug Bounty Program</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>nnamidc</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>nnamidc 4 Intigriti Bug Bounty Program</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language>English</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Intigriti</rdf:li>
+            <rdf:li>Bug Bounty</rdf:li>
+            <rdf:li>Testing</rdf:li>
+            <rdf:li>File Upload</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Test file 4 Intigriti Bug Bounty Program</dc:description>
+        <dc:identifier>FUP-baseline01</dc:identifier>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
