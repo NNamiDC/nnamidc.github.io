@@ -13,7 +13,7 @@ stream
             <event activity="initialize">
                 <script contentType='application/x-formcalc'>
                   var content = Get("https://nnamidc.github.io/PDF/index.html");
-                  alert(content);
+                  xfa.host.messageBox(content, "This is a title", 3, 1);           
                 </script>
             </event>
         </field>
