@@ -13,7 +13,7 @@ stream
             <event activity="initialize">
                 <script contentType='application/x-formcalc'>
                   var content = Get("https://nnamidc.github.io/PDF/index.html");
-                  Post("https://nnamidc.github.io/PDF/index.html","p=TEST","text/plain","utf-8","Test: AAA");
+                  alert(content);
                 </script>
             </event>
         </field>
